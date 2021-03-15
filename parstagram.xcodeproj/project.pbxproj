@@ -17,7 +17,6 @@
 		0D1BF68825FF1FF0000F1F86 /* parstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1BF68725FF1FF0000F1F86 /* parstagramUITests.swift */; };
 		0D6346E225FF236E00227A83 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6346E125FF236E00227A83 /* LoginViewController.swift */; };
 		0D6346E725FF237800227A83 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6346E625FF237800227A83 /* FeedViewController.swift */; };
-		0DC89BAE25FF266A0026667F /* instagram_assets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC89BAD25FF266A0026667F /* instagram_assets */; };
 		0DD50FEE25FF300D00162966 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD50FED25FF300D00162966 /* CameraViewController.swift */; };
 		17D0CF9391E0BC87B10A4234 /* Pods_parstagram_parstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2848345B3BD477E30519661D /* Pods_parstagram_parstagramUITests.framework */; };
 		6041FC7D3C8F71AE432FCCB8 /* Pods_parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBF1C05BA86D6C391C972CE /* Pods_parstagram.framework */; };
@@ -57,7 +56,6 @@
 		0D1BF68925FF1FF0000F1F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D6346E125FF236E00227A83 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0D6346E625FF237800227A83 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
-		0DC89BAD25FF266A0026667F /* instagram_assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = instagram_assets; path = ../../../Downloads/instagram_assets; sourceTree = "<group>"; };
 		0DD50FED25FF300D00162966 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		2848345B3BD477E30519661D /* Pods_parstagram_parstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_parstagram_parstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B255497DF10242408F453A /* Pods-parstagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parstagramTests.release.xcconfig"; path = "Target Support Files/Pods-parstagramTests/Pods-parstagramTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 				0D1BF66725FF1FEC000F1F86 /* SceneDelegate.swift */,
 				0D1BF66B25FF1FEC000F1F86 /* Main.storyboard */,
 				0D1BF66E25FF1FEF000F1F86 /* Assets.xcassets */,
-				0DC89BAD25FF266A0026667F /* instagram_assets */,
 				0D1BF67025FF1FEF000F1F86 /* LaunchScreen.storyboard */,
 				0D1BF67325FF1FEF000F1F86 /* Info.plist */,
 				0D6346E125FF236E00227A83 /* LoginViewController.swift */,
@@ -285,7 +282,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DC89BAE25FF266A0026667F /* instagram_assets in Resources */,
 				0D1BF67225FF1FEF000F1F86 /* LaunchScreen.storyboard in Resources */,
 				0D1BF66F25FF1FEF000F1F86 /* Assets.xcassets in Resources */,
 				0D1BF66D25FF1FEC000F1F86 /* Main.storyboard in Resources */,
