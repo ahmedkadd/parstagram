@@ -58,7 +58,7 @@
                                     <action selector="onSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Ou-u4-DhX"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="instagram_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="8im-vH-o1B">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="instagram_logo" translatesAutoresizingMaskIntoConstraints="NO" id="8im-vH-o1B">
                                 <rect key="frame" x="80" y="165" width="254" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -87,7 +87,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="7oo-Ya-Gy4">
-                        <barButtonItem key="rightBarButtonItem" title="+" image="insta_camera_btn.png" id="BOa-A6-lb2">
+                        <barButtonItem key="rightBarButtonItem" title="+" image="insta_camera_btn" id="BOa-A6-lb2">
                             <connections>
                                 <segue destination="qwr-w2-G3u" kind="presentation" id="AtN-W3-pe1"/>
                             </connections>
@@ -101,12 +101,12 @@
         <!--Camera View Controller-->
         <scene sceneID="JWG-bR-erV">
             <objects>
-                <viewController id="qwr-w2-G3u" customClass="CameraViewController" customModule="parstagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="qwr-w2-G3u" customClass="CameraViewController" customModule="parstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="i6X-wO-sQl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image_placeholder.png" translatesAutoresizingMaskIntoConstraints="NO" id="trh-us-cqa">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="trh-us-cqa">
                                 <rect key="frame" x="20" y="54" width="374" height="292"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -166,9 +166,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="image_placeholder.png" width="375" height="375"/>
-        <image name="insta_camera_btn.png" width="25" height="25"/>
-        <image name="instagram_logo.png" width="255" height="108"/>
+        <image name="image_placeholder" width="375" height="375"/>
+        <image name="insta_camera_btn" width="25" height="25"/>
+        <image name="instagram_logo" width="255" height="108"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
